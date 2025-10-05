@@ -1,0 +1,14 @@
+{
+  "name": "ga2-702ae2",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "features": {
+    "ghcr.io/devcontainers/features/python:1": {}
+  },
+  "postCreateCommand": "pip install fastapi",
+  "extensions": [
+    "astral-sh.uv",
+    "ms-python.python"
+  ],
+  "forwardPorts": [8000],
+  "remoteUser": "vscode"
+}
